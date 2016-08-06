@@ -1,22 +1,25 @@
-<form action="<%= data.site.mailchimp_action_url %>"
+<form action=""
       name="mc-embedded-subscribe-form"
       method="post"
       target="_blank"
       novalidate>
 
+  <label for="mce-FIRST_NAME">First Name</label>
+  <input id="mce-FIRST_NAME" name="FIRST_NAME" type="text">
+
+  <label for="mce-LAST_NAME">Last Name</label>
+  <input id="mce-LAST_NAME" name="LAST_NAME" type="text">
+
   <label for="mce-EMAIL">Email Address</label>
   <input id="mce-EMAIL" name="EMAIL" type="email">
 
-  <label for="mce-FNAME">First Name</label>
-  <input id="mce-FNAME" name="FNAME" type="text">
+  <label for="mce-ZIP_CODE">Zip Code</label>
+  <input id="mce-ZIP_CODE" name="ZIP_CODE" type="text">
 
-  <label for="mce-LNAME">Last Name</label>
-  <input id="mce-LNAME" name="LNAME" type="text">
-
-  <div aria-hidden="true">
+  <div aria-hidden="true" class="u-hide-visually">
     <input name="b_a5c71e611696eace85a2f204f_c254b9e552"
-           tabindex="-1"
            type="text"
+           tabindex="-1"
            value="">
   </div>
 

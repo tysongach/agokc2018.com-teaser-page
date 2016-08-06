@@ -1,1 +1,5 @@
 @import "bourbon";
+
+.u-hide-visually {
+  @include hide-visually;
+}
