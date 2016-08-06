@@ -11,4 +11,3 @@ gem "middleman-minify-html"
 gem "redcarpet"
 gem "sassc"
 gem "scss_lint", "0.49.0", require: false
-gem "slim"
