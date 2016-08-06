@@ -6,10 +6,15 @@ activate :dotenv
 
 set :css_dir, "assets/stylesheets"
 set :markdown_engine, :redcarpet
-set :markdown do |markdown|
-  markdown.smartypants = true
-  markdown.with_toc_data = true
-end
+set :markdown,
+  autolink: true,
+  fenced_code_blocks: true,
+  footnotes: true,
+  highlight: true,
+  smartypants: true,
+  strikethrough: true,
+  tables: true,
+  with_toc_data: true
 
 page "/*.xml", layout: false
 page "/*.json", layout: false
