@@ -2,6 +2,8 @@
 
 @import "reset/reset";
 
-.u-hide-visually {
-  @include hide-visually;
-}
+@import "library/library";
+@import "base/base";
+@import "patterns/patterns";
+@import "components/components";
+@import "utilities/utilities";

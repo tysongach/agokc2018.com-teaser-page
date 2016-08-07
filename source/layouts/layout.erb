@@ -9,7 +9,10 @@
     <%= stylesheet_link_tag "main" %>
   </head>
   <body>
-    <main role="main" itemscope itemtype="http://schema.org/Event">
+    <main class="p-container"
+          role="main"
+          itemtype="http://schema.org/Event"
+          itemscope>
       <%= yield %>
     </main>
     <%= partial "partials/analytics" %>

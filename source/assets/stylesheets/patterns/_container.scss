@@ -1,0 +1,5 @@
+.p-container {
+  @include margin(null auto);
+  @include padding(null $base-spacing);
+  max-width: $line-length;
+}

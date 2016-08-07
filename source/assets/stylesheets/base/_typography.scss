@@ -1,0 +1,59 @@
+body {
+  color: $color--body-text;
+  font-family: $font-family;
+  font-size: 100%;
+  line-height: $line-height;
+
+  // @include media(min-width $small-screen) {
+  //   font-size: 128%;
+  // }
+
+  // @include media(min-width $medium-screen) {
+  //   font-size: 140%;
+  // }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family--heading;
+  font-size: modular-scale(1);
+  font-weight: 600;
+  line-height: $line-height--heading;
+  // margin: 0 0 $small-spacing;
+  margin: ($space-between-paragraphs * 1.5) 0 ($space-between-paragraphs / 2);
+}
+
+// p {
+//   margin: 0 0 $small-spacing;
+// }
+
+p,
+ul,
+ol,
+dl {
+  margin: 0 0 $space-between-paragraphs;
+}
+
+a {
+  color: $color--body-text;
+  // text-decoration: none;
+  transition: color $animation-duration $animation-timing;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $color--action;
+  }
+}
+
+hr {
+  border-bottom: $border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}

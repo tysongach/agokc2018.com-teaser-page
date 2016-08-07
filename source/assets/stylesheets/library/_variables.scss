@@ -1,0 +1,42 @@
+// Colors
+
+$white: #fff;
+$black: #000;
+
+$dark-gray: #222;
+$medium-gray: #777;
+$light-gray: #ddd;
+
+$blue: #1565c0;
+
+$color--body-background: $white;
+$color--body-text: $dark-gray;
+$color--action: $blue;
+$color--border: $light-gray;
+
+
+// Typography
+
+$font-family: $font-stack-system;
+$font-family--heading: $font-family;
+$line-height: 1.5;
+$line-height--heading: 1.2;
+$space-between-paragraphs: 1em;
+$line-length: 36em;
+
+
+// General
+
+$base-spacing: 1rem;
+$small-spacing: $base-spacing / 2;
+
+$border-radius: 3px;
+$border: 1px solid $color--border;
+
+$animation-duration: 150ms;
+$animation-timing: ease;
+
+// $bourbon: (
+//   "modular-scale-ratio": $major-second,
+//   "rails-asset-pipeline": true,
+// );
