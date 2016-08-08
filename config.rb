@@ -31,4 +31,7 @@ configure :build do
   activate :gzip
   activate :minify_css
   activate :minify_html
+  activate :relative_assets
+
+  set :relative_links, true
 end
