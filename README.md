@@ -5,13 +5,13 @@
 1. Get the code:
 
   ```
-  git clone git@github.com:tysongach/agot.git
+  git clone git@github.com:tysongach/ago.git
   ```
 
-1. Install dependencies:
+1. Set up your machine:
 
   ```
-  bundle install
+  bin/setup
   ```
 
 1. Run the local server:
