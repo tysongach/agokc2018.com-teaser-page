@@ -28,17 +28,14 @@ textarea {
 #{$all-text-inputs} {
   appearance: none;
   background-color: $white;
-  border: $border;
+  border: 2px solid $white;
   border-radius: $border-radius;
   box-sizing: border-box;
+  color: $dark-gray;
   margin: 0;
-  padding: $base-spacing / 3;
+  padding: modular-scale(-2) modular-scale(-1);
   transition: border-color $animation-duration $animation-timing;
   width: 100%;
-
-  &:hover {
-    border-color: shade($color--border, 20%);
-  }
 
   &:focus {
     border-color: $color--action;
@@ -55,7 +52,7 @@ textarea {
   }
 
   &::placeholder {
-    color: $medium-gray;
+    color: shade($color--body-background, 80%);
   }
 }
 

@@ -32,13 +32,13 @@ $line-length: 36em;
 $base-spacing: 1rem;
 $small-spacing: $base-spacing / 2;
 
-$border-radius: 3px;
+$border-radius: 6px;
 $border: 1px solid $color--border;
 
 $animation-duration: 150ms;
 $animation-timing: ease;
 
-// $bourbon: (
-//   "modular-scale-ratio": $major-second,
-//   "rails-asset-pipeline": true,
-// );
+$bourbon: (
+  "contrast-switch-dark-color": $dark-gray,
+  "contrast-switch-light-color": $white,
+);
