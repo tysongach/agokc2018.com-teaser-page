@@ -9,11 +9,14 @@
     <%= stylesheet_link_tag "main" %>
   </head>
   <body>
-    <header class="p-container"
-            itemtype="http://schema.org/Event"
-            itemscope>
-      <%= svg("ago-kc-2018-logo") %>
-      <%= partial "partials/convention_details" %>
+    <header class="c-hero u-flex">
+      <div class="p-container u-flex u-items-center">
+        <div itemtype="http://schema.org/Event"
+             itemscope>
+          <%= svg("ago-kc-2018-logo") %>
+          <%= partial "partials/convention_details" %>
+        </div>
+      </div>
     </header>
     <main class="p-container"
           role="main">

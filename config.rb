@@ -27,7 +27,9 @@ configure :development do
 end
 
 configure :build do
-  activate :asset_hash
+  activate :asset_hash do |hash|
+    hash.ignore = %r{^assets/images/.*}
+  end
   activate :gzip
   activate :minify_css
   activate :minify_html

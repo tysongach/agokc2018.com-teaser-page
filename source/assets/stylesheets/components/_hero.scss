@@ -1,0 +1,9 @@
+.c-hero {
+  @include padding(($base-spacing * 3) null);
+  background-image: url("/assets/images/kauffman-center-helzberg-hall.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 85vh;
+  text-align: center;
+}
