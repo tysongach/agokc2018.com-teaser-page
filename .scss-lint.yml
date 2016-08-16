@@ -1,5 +1,7 @@
 scss_files: '**/*.scss'
 
+exclude: 'source/assets/stylesheets/reset/*.scss'
+
 severity: warning
 
 linters:
