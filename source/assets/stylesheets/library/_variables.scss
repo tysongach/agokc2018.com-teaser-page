@@ -19,8 +19,9 @@ $color--border: $light-gray;
 
 // Typography
 
-$font-family: $font-stack-system;
+$font-family: "freight-sans-pro", $font-stack-system;
 $font-family--heading: $font-family;
+$font-family--heading-alt: "league-gothic", $font-stack-system;
 $line-height: 1.5;
 $line-height--heading: 1.2;
 $space-between-paragraphs: 1em;
