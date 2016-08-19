@@ -1,0 +1,35 @@
+.c-why-kc {
+  counter-reset: why-kc-item;
+  margin-bottom: $base-spacing * 4;
+}
+
+.c-why-kc__title {
+  @include margin(($base-spacing * 3) null);
+  color: $ago-yellow;
+  font-family: $font-family--heading-alt;
+  font-size: modular-scale(5);
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.c-why-kc__item {
+  margin-bottom: $base-spacing * 3;
+}
+
+.c-why-kc__item-title {
+  border-bottom: 2px solid $white;
+  color: $ago-orange;
+  font-family: $font-family--heading;
+  margin: 0;
+  padding-bottom: $small-spacing / 2;
+  text-transform: uppercase;
+
+  &::before {
+    color: $ago-yellow;
+    content: counters(why-kc-item, ".", decimal-leading-zero);
+    counter-increment: why-kc-item;
+    font-family: $font-family--heading-alt;
+    margin-right: $base-spacing;
+  }
+}

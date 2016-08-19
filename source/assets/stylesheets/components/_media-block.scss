@@ -1,0 +1,20 @@
+.c-media-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.c-media-block__title {
+  width: 100%;
+}
+
+.c-media-block__body {
+  margin-top: $small-spacing;
+}
+
+.c-media-block__body,
+.c-media-block__media {
+  @media (min-width: 48em) {
+    width: calc(50% - 1rem);
+  }
+}
