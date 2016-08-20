@@ -1,5 +1,9 @@
 .p-container {
   @include margin(null auto);
-  @include padding(null $base-spacing);
+  @include padding(null ($base-spacing * 1.5));
   max-width: 56rem;
+}
+
+.p-container--narrow {
+  max-width: 40rem;
 }
