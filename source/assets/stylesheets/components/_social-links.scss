@@ -1,0 +1,10 @@
+.c-social-links__title {
+  margin-bottom: $base-spacing * 2;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.c-social-links__link {
+  display: block;
+  width: modular-scale(3);
+}

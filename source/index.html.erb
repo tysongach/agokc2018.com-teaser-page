@@ -54,18 +54,26 @@
   <%= partial "partials/mailchimp_sign_up" %>
 </section>
 
-<section class="p-container p-container--narrow">
-  <h4>Follow Us!</h4>
+<section class="c-social-links p-container p-container--narrow">
+  <h4 class="c-social-links__title">Follow Us!</h4>
 
-  <a href="https://www.facebook.com/" target="_blank">
-    <%= svg("icon-facebook-logo") %>
-  </a>
+  <div class="u-flex u-items-center u-justify-space-around">
+    <a class="c-social-links__link"
+       href="https://www.facebook.com/"
+       target="_blank">
+      <%= svg("icon-facebook-logo") %>
+    </a>
 
-  <a href="https://www.instagram.com/" target="_blank">
-    <%= svg("icon-instagram-logo") %>
-  </a>
+    <a class="c-social-links__link"
+       href="https://www.instagram.com/"
+       target="_blank">
+      <%= svg("icon-instagram-logo") %>
+    </a>
 
-  <a href="https://twitter.com/" target="_blank">
-    <%= svg("icon-twitter-logo") %>
-  </a>
+    <a class="c-social-links__link"
+       href="https://twitter.com/"
+       target="_blank">
+      <%= svg("icon-twitter-logo") %>
+    </a>
+  </div>
 </section>
