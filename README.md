@@ -23,3 +23,13 @@
   ```
   open http://localhost:4567
   ```
+
+## Hosting & Deployment
+
+The website is hosted on [GitHub Pages]. To deploy, run:
+
+```
+bundle exec rake publish
+```
+
+[GitHub Pages]: https://pages.github.com/
