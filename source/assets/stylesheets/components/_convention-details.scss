@@ -1,0 +1,60 @@
+.c-convention-details {
+  z-index: 1;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+
+  hr {
+    @include margin(null auto);
+    border-bottom: 3px solid $ago-yellow;
+    width: 3rem;
+  }
+}
+
+.c-convention-details__logo {
+  @include margin(null auto);
+  margin-bottom: $base-spacing * 2;
+  max-width: 16rem;
+}
+
+.c-convention-details__title-line-one {
+  color: $ago-yellow;
+  display: block;
+  font-size: modular-scale(1);
+}
+
+.c-convention-details__title-line-two {
+  display: block;
+  text-transform: uppercase;
+}
+
+.c-convention-details__tagline-line-one {
+  color: $ago-orange;
+  display: block;
+  text-transform: uppercase;
+}
+
+.c-convention-details__tagline-line-two {
+  display: block;
+  text-transform: uppercase;
+}
+
+.c-convention-details__tagline-line-three {
+  color: $ago-yellow;
+  display: block;
+  font-family: $font-family--heading-alt;
+  font-size: modular-scale(2);
+  font-weight: 400;
+  margin: 0 0 -0.2em;
+  text-transform: uppercase;
+}
+
+.c-convention-details__tagline-line-four {
+  text-transform: uppercase;
+}

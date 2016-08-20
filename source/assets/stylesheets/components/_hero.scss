@@ -5,5 +5,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 85vh;
+  position: relative;
   text-align: center;
+
+  &::after {
+    @include position(absolute, 0);
+    background-color: rgba($black, 0.6);
+    content: "";
+    z-index: 0;
+  }
 }
