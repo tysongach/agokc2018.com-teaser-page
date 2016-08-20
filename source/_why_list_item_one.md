@@ -4,4 +4,4 @@ world’s  nest modern composers; be able to check out dozens of workshops and
 seminars; and enjoy creative worship services in some of the most beautiful and
 historic organ venues in the country. The organists of Kansas City look forward
 to sharing the grandeur of the city’s organs and performance venues with the
-rest of the world on July 2 – 6, 2018.
+rest of the world on July&nbsp;2&nbsp;–&nbsp;6,&nbsp;2018.
