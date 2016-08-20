@@ -4,48 +4,54 @@
       target="_blank">
 
   <fieldset>
-    <div class="c-form-field">
+    <legend class="u-hide-visually">Full Name</legend>
+
+    <div class="u-flex u-justify-space-between">
+      <div class="c-newsletter-sign-up__field c-form-field">
+        <label class="u-hide-visually"
+               for="mce-FIRST_NAME">First Name</label>
+        <input id="mce-FIRST_NAME"
+               name="FIRST_NAME"
+               type="text"
+               placeholder="First Name"
+               autocomplete="given-name"
+               required>
+      </div>
+
+      <div class="c-newsletter-sign-up__field c-form-field">
+        <label class="u-hide-visually"
+               for="mce-LAST_NAME">Last Name</label>
+        <input id="mce-LAST_NAME"
+               name="LAST_NAME"
+               type="text"
+               placeholder="Last Name"
+               autocomplete="family-name"
+               required>
+      </div>
+    </div>
+  </fieldset>
+
+  <div class="u-flex u-justify-space-between">
+    <div class="c-newsletter-sign-up__field c-form-field">
       <label class="u-hide-visually"
-             for="mce-FIRST_NAME">First Name</label>
-      <input id="mce-FIRST_NAME"
-             name="FIRST_NAME"
-             type="text"
-             placeholder="First Name"
-             autocomplete="given-name"
+             for="mce-EMAIL">Email Address</label>
+      <input id="mce-EMAIL"
+             name="EMAIL"
+             type="email"
+             placeholder="Email Address"
+             autocomplete="email"
              required>
     </div>
 
-    <div class="c-form-field">
+    <div class="c-newsletter-sign-up__field c-form-field">
       <label class="u-hide-visually"
-             for="mce-LAST_NAME">Last Name</label>
-      <input id="mce-LAST_NAME"
-             name="LAST_NAME"
+             for="mce-ZIP_CODE">Zip Code</label>
+      <input id="mce-ZIP_CODE"
+             name="ZIP_CODE"
              type="text"
-             placeholder="Last Name"
-             autocomplete="family-name"
-             required>
-      </div>
-  </fieldset>
-
-  <div class="c-form-field">
-    <label class="u-hide-visually"
-           for="mce-EMAIL">Email Address</label>
-    <input id="mce-EMAIL"
-           name="EMAIL"
-           type="email"
-           placeholder="Email Address"
-           autocomplete="email"
-           required>
-  </div>
-
-  <div class="c-form-field">
-    <label class="u-hide-visually"
-           for="mce-ZIP_CODE">Zip Code</label>
-    <input id="mce-ZIP_CODE"
-           name="ZIP_CODE"
-           type="text"
-           placeholder="Zip Code"
-           autocomplete="postal-code">
+             placeholder="Zip Code"
+             autocomplete="postal-code">
+    </div>
   </div>
 
   <div aria-hidden="true" class="u-hide-visually">
@@ -55,5 +61,7 @@
            value="">
   </div>
 
-  <button name="subscribe" type="submit">Subscribe</button>
+  <button class="c-newsletter-sign-up__button"
+          name="subscribe"
+          type="submit">Subscribe</button>
 </form>

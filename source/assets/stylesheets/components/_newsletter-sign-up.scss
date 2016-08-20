@@ -1,0 +1,19 @@
+.c-newsletter-sign-up {
+  margin-bottom: $base-spacing * 4;
+}
+
+.c-newsletter-sign-up__title {
+  font-size: modular-scale(0);
+  margin-bottom: $base-spacing * 2;
+  text-align: center;
+}
+
+.c-newsletter-sign-up__field {
+  width: calc(50% - 0.5rem);
+}
+
+.c-newsletter-sign-up__button {
+  display: block;
+  margin: 0 auto;
+  min-width: 50%;
+}
