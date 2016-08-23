@@ -2,7 +2,6 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 5 versions"
 end
 activate :directory_indexes
-activate :dotenv
 
 set :css_dir, "assets/stylesheets"
 set :images_dir, "assets/images"
@@ -22,6 +21,7 @@ page "/*.json", layout: false
 page "/*.txt", layout: false
 
 configure :development do
+  activate :dotenv, env: ".env"
   activate :livereload do |reload|
     reload.no_swf = true
   end
@@ -31,6 +31,7 @@ configure :build do
   activate :asset_hash do |hash|
     hash.ignore = %r{^assets/images/.*}
   end
+  activate :dotenv, env: ".env.build"
   activate :gzip
   activate :minify_css
   activate :minify_html
