@@ -7,10 +7,11 @@
   min-height: 85vh;
   position: relative;
   text-align: center;
+  text-shadow: 0 0 10px rgba($black, 0.7);
 
   &::after {
     @include position(absolute, 0);
-    background-color: rgba($black, 0.6);
+    background-color: rgba($black, 0.35);
     content: "";
     z-index: 0;
   }
