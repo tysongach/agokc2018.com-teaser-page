@@ -5,7 +5,7 @@
 1. Get the code:
 
     ```
-    git clone git@github.com:tysongach/ago.git
+    git clone https://github.com/tysongach/ago-teaser-page.git
     ```
 
 1. Set up your machine:
