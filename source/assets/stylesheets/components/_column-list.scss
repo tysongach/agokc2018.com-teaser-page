@@ -1,0 +1,6 @@
+.c-column-list {
+  @media (min-width: 40em) {
+    column-count: 2;
+    column-gap: 3em;
+  }
+}

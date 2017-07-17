@@ -1,11 +1,11 @@
 <section class="c-why-kc p-container">
-  <h4 class="c-why-kc__title">Why Kansas City?</h4>
+  <h3 class="c-why-kc__title">Why Kansas City?</h3>
 
   <div class="c-why-kc__item p-media-block">
     <div class="p-media-block__title">
-      <h5 class="c-why-kc__item-title p-media-block__title">
+      <h4 class="c-why-kc__item-title p-media-block__title">
         What You Will&nbsp;Experience
-      </h5>
+      </h4>
     </div>
     <div class="p-media-block__body">
       <%= partial "why_list_item_one" %>
@@ -15,11 +15,27 @@
     </div>
   </div>
 
+  <div class="c-sub-section u-flex u-justify-space-between">
+    <div class="c-sub-section__list">
+      <h5>
+        Performers
+      </h5>
+      <%= partial "performers" %>
+    </div>
+
+    <div class="c-sub-section__list">
+      <h5>
+        Composers
+      </h5>
+      <%= partial "composers" %>
+    </div>
+  </div>
+
   <div class="c-why-kc__item p-media-block">
     <div class="p-media-block__title">
-      <h5 class="c-why-kc__item-title p-media-block__title">
+      <h4 class="c-why-kc__item-title p-media-block__title">
         Kansas City Is The Place&nbsp;To&nbsp;Be
-      </h5>
+      </h4>
     </div>
     <div class="p-media-block__body">
       <%= partial "why_list_item_two" %>
@@ -29,11 +45,18 @@
     </div>
   </div>
 
+  <div class="c-sub-section">
+    <h5>
+      Continuing Education
+    </h5>
+    <%= partial "continuing_education" %>
+  </div>
+
   <div class="c-why-kc__item p-media-block">
     <div class="p-media-block__title">
-      <h5 class="c-why-kc__item-title p-media-block__title">
+      <h4 class="c-why-kc__item-title p-media-block__title">
         More Than Jazz&nbsp;And&nbsp;BBQ
-      </h5>
+      </h4>
     </div>
     <div class="p-media-block__body">
       <%= partial "why_list_item_three" %>
@@ -42,34 +65,50 @@
       <%= image_tag "jc-nichols-fountain.jpg" %>
     </div>
   </div>
+
+  <div class="c-sub-section u-flex u-justify-space-between">
+    <div class="c-sub-section__list">
+      <h5>
+        Things To Do In Kansas City Near The Convention Hotel
+      </h5>
+      <%= partial "things_to_do" %>
+    </div>
+
+    <div class="c-sub-section__list">
+      <h5>
+        Other Attractions
+      </h5>
+      <%= partial "other_attractions" %>
+    </div>
+  </div>
 </section>
 
 <section class="c-newsletter-sign-up p-container p-container--narrow">
-  <h4 class="c-newsletter-sign-up__title">
+  <h3 class="c-newsletter-sign-up__title">
     Attendees, to receive more information, sign up for our newsletter below, or
     <a href="mailto:d.brown.ago.2018@gmail.com">email Assistant
     Convention&nbsp;Chair Dan&nbsp;Brown</a>.
-  </h4>
+  </h3>
 
   <%= partial "partials/mailchimp_sign_up" %>
 
-  <h4 class="c-newsletter-sign-up__title">
+  <h3 class="c-newsletter-sign-up__title">
     Advertisers may reach out to our Advertising Chair, Maury Castro, at
     <a href="mailto:maury.castro@agohq.org">maury.castro@agohq.org</a> to
     request to be notified when we have more information on advertising with us.
-  </h4>
+  </h3>
 
-  <h4 class="c-newsletter-sign-up__title">
+  <h3 class="c-newsletter-sign-up__title">
     Exhibitors may reach out to our Exhibitor Chair, Tom Watgen, at
     <a href="mailto:t.watgen.ago.2018@gmail.com">t.watgen.ago.2018@gmail.com</a>
     to request to be notified when we have more information on exhibiting
     with us.
-  </h4>
+  </h3>
 </section>
 
 <!--
 <section class="c-social-links p-container p-container--narrow">
-  <h4 class="c-social-links__title">Follow Us!</h4>
+  <h3 class="c-social-links__title">Follow Us!</h3>
 
   <div class="u-flex u-items-center u-justify-space-around">
     <a class="c-social-links__link"
