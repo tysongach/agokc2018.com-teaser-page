@@ -110,7 +110,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    redcarpet (3.3.4)
+    redcarpet (3.4.0)
     sass (3.4.25)
     sassc (1.10.0)
       bundler
