@@ -7,3 +7,22 @@
 @import "patterns/patterns";
 @import "components/components";
 @import "utilities/utilities";
+
+.venue-list {
+  dt {
+    break-after: avoid-column;
+    &:not(:first-of-type) {
+      margin: 1.5em 0 0;
+    }
+  }
+
+  dd {
+    margin: 0.5em 0 0;
+    opacity: 0.8;
+  }
+
+  @media (min-width: 40em) {
+    column-count: 3;
+    column-gap: 3em;
+  }
+}
